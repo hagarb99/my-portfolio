@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hagar-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Hagar Bastawi</h1>
+                <!-- Or you can use an image: <img src="logo.png" alt="Logo"> -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger"> <!-- For mobile navigation -->
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p>I'm Hagar, a passionate web developer</p>
+                <p>Specializing in creating landing pages and websites</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Hagar. and I have a deep passion for programming.</p>
+                    <p>My journey into programming started when<strong>I took my first computer science course</strong>. Since then, I've been dedicated to honing my skills in <strong>full-stack web development, specific languages like c++ and JavaScript</strong></p>
+                    <p>When I'm not coding, I enjoy reading and excercies.</p>
+                </div>
+                <div class="about-image">
+                    <!-- <img src="your-image.jpg" alt="Your Name"> -->
+                    <img src="WhatsApp Image 2025-05-01 at 00.37.50_ad8f4e6f.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <!-- <img src="project1-thumbnail.jpg" alt="Project 1 Thumbnail"> -->
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of Project 1. What it does, and its purpose.</p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <!-- <img src="project2-thumbnail.jpg" alt="Project 2 Thumbnail"> -->
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of Project 2. Highlight key features.</p>
+                    <p><strong>Technologies:</strong> React, Node.js, CSS</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">Source Code</a>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        
+                        <!-- Add more front-end skills -->
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-End</h3>
+                    <ul>
+                        <li>php</li>
+                        <li>Python</li>
+                        <li>c++</li>
+                        
+                        <!-- Add more back-end skills -->
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>my sql</li>
+                        <!-- Add more database skills -->
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>wordpress</li>
+                        <li>Responsive Design</li>
+                        <!-- Add more tools/other skills -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out! You can email me at <a href="mailto:jp.hagarbastawi@gmail.com">jp.hagarbastawi@gmail.com</a> or use the form below.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© <span id="current-year"></span> Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/hagar-bastawi/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/hagarb99" target="_blank">GitHub</a>
+            <!-- Add other social links as needed -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
